@@ -14,6 +14,7 @@ By downloading and installing to your Android device the <b>.apk</b> file you ca
 <!-- TODO Continue Demo with application abilities -->
 
 ## Future Updates
+Add Anonymous Authentication with Firebase
 Implement a Drawer Menu that opens when user clicks their top-left profile picture that will contain a:
 * <b>Profile</b> button that will lead to user's Profile (Organize Profile layout)
 * <b>My Reports</b> button that will lead to a layout where all the user's report will be shown
@@ -29,3 +30,11 @@ Every step I took for the implementation of this project:
 ![UI Design](https://github.com/Ntelos/City-Connect/blob/main/images/UI_Design.png?raw=true)
 * Created Android Studio Project (with no activity selection)
 * Created 3 activities (SignIn, Maps, Profile)
+* Created a Firebase Project at https://console.firebase.google.com/
+* Got a Google Maps API key with the help of the default comments at the <i>google_maps_api.xml</i> file
+* Intergraded Googled Sign In option following this documentation: https://firebase.google.com/docs/auth/android/google-signin
+* Designed Sign In layout
+* Finished Sign In intergration
+* Connected Sign In with Profile for now
+
+*DO AGAIN (because I deleted it) Google Maps API key
