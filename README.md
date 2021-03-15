@@ -11,7 +11,7 @@ Report any issue of your city to the authorities with this Android Application w
 By downloading and installing to your Android device the <b>.apk</b> file you can:
 * Sign In using a Google account
 * Monitor your current location
-//TODO: Continue Demo with application abilities
+<!-- TODO Continue Demo with application abilities -->
 
 ## Future Updates
 Implement a Drawer Menu that opens when user clicks their top-left profile picture that will contain a:
@@ -21,7 +21,7 @@ Implement a Drawer Menu that opens when user clicks their top-left profile pictu
 * <b>Important Contacts</b> button that will lead at a layout with phone numbers and information about authorities and emergency services for more direct reports
 * <b>About</b> button that will lead to a layout with information about the application
 * <b>Logout</b> button and icon (remove it from profile layout)
-//TODO: Continue Future Updates with application expansion ideas
+<!-- TODO: Continue Future Updates with application expansion ideas -->
 
 ## Step by Step Implementation
 Every step I took for the implementation of this project:
