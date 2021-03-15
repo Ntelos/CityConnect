@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76901354522",
+    "project_id": "city-connect-32324",
+    "storage_bucket": "city-connect-32324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76901354522:android:1cce120c8dec284e2e15a3",
+        "android_client_info": {
+          "package_name": "com.example.cityconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76901354522-hoh2fhka26kq0oi0ha5dsn6paoe87u20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cityconnect",
+            "certificate_hash": "a866c03b540a9eda321e102e750980b448bdec8b"
+          }
+        },
+        {
+          "client_id": "76901354522-4h7r98leltnb9127v9js72cjdfr1a8qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZAGcFemxrSrbjz7-u3P2JaP4ouQSVa84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76901354522-4h7r98leltnb9127v9js72cjdfr1a8qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
