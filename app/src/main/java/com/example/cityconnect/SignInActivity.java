@@ -31,10 +31,9 @@ public class SignInActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
+        // Check if user is signed in (non-null) and update UI accordingly (skip sign in).
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser!=null){
-            //skip sign in
             goToNextActivity();
         }
     }
@@ -44,9 +43,11 @@ public class SignInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
+        //Configure - Setup Authentication mechanism
         mAuth = FirebaseAuth.getInstance();
         confSignIn();
 
+        //Call signIn() when sign_in_button is clicked
         findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,8 +82,8 @@ public class SignInActivity extends AppCompatActivity {
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
-                // Google Sign In failed
-                Toast.makeText(this, "Could not Sign In to Google", Toast.LENGTH_SHORT).show();
+                // Google Sign In failed, most often due to phones' lack of internet connection
+                Toast.makeText(this, "Check your Internet Connection", Toast.LENGTH_SHORT).show();
             }
         }
     }
