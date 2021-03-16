@@ -36,5 +36,3 @@ Every step I took for the implementation of this project:
 * Designed Sign In layout
 * Finished Sign In intergration
 * Connected Sign In with Profile for now
-
-*DO AGAIN (because I deleted it) Google Maps API key
