@@ -34,7 +34,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
-                //go back to sign in layout
+                //terminate this activity
                 finish();
             }
         });
