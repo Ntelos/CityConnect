@@ -32,7 +32,10 @@ Every step I took for the implementation of this project:
 * Created 3 activities (SignIn, Maps, Profile)
 * Created a Firebase Project at https://console.firebase.google.com/
 * Got a Google Maps API key with the help of the default comments at the <i>google_maps_api.xml</i> file
-* Intergraded Googled Sign In option following this documentation: https://firebase.google.com/docs/auth/android/google-signin
+* Intergrated Googled Sign In option following this documentation: https://firebase.google.com/docs/auth/android/google-signin
 * Designed Sign In layout
 * Finished Sign In intergration
 * Connected Sign In with Profile for now
+* Designed Profile to show signed in user's name, email and ID
+* Intergrated [Glide](https://github.com/bumptech/glide) library to show sign in user's profile picture
+* Added app icon
