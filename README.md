@@ -39,3 +39,6 @@ Every step I took for the implementation of this project:
 * Designed Profile to show signed in user's name, email and ID
 * Intergrated [Glide](https://github.com/bumptech/glide) library to show sign in user's profile picture
 * Added app icon
+* Connected Interfaces correctly
+* Corrected exiting app methods
+* Created pop up dialog

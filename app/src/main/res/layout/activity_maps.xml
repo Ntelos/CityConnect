@@ -14,13 +14,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MapsActivity"
-        android:layout_weight="9" />
+        android:layout_weight="9">
 
-    <Button
-        android:id="@+id/report_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REPORT"
-        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:layout_gravity="left|top"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/report_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORT"
+            android:layout_gravity="center|bottom"
+            android:padding="15dp"
+            android:layout_marginBottom="25dp"/>
+    </fragment>
 
 </LinearLayout>
