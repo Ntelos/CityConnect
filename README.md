@@ -42,3 +42,7 @@ Every step I took for the implementation of this project:
 * Connected Interfaces correctly
 * Corrected exiting app methods
 * Created pop up dialog
+* Get every information needed for a report
+* Firebase Database connection
+* Report class
+* Add records to database
