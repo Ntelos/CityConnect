@@ -172,22 +172,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         addToDatabase();
     }
 
+    private void addToDatabase1() {
+        Test t = new Test("aaaa","bbbb");
+        db.collection("test").add(t);
+    }
+
     private void addToDatabase() {
-        Reports reports = new Reports(title, description, name, surname, id, email, status, address, postalcode, latLng.toString(), date.toString(), city);
+        Reports report = new Reports(title, description, name, surname, id, email, status, address, postalcode, latLng.toString(), date.toString(), city);
         //Εισαγωγή στην βάση
-        db.collection("reports")
-                .add(reports)
-                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                    @Override
-                    public void onSuccess(DocumentReference documentReference) {
-                        Toast.makeText(getApplication(), "Report was sent", Toast.LENGTH_LONG).show();
-                    }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(getApplication(), "An error occured", Toast.LENGTH_LONG).show();
-                    }
-                });
+        db.collection("reports").add(report);
     }
 }
