@@ -27,7 +27,7 @@ Implement a Drawer Menu that opens when user clicks their top-left profile pictu
 ## Step by Step Implementation
 Every step I took for the implementation of this project:
 * Designed User Interface using https://app.diagrams.net/
-![UI Design](https://github.com/Ntelos/City-Connect/blob/main/images/UI_Design.png?raw=true)
+![UI Design](https://github.com/Ntelos/City-Connect/blob/main/images/demo_preview.jpg?raw=true)
 * Created Android Studio Project (with no activity selection)
 * Created 3 activities (SignIn, Maps, Profile)
 * Created a Firebase Project at https://console.firebase.google.com/
